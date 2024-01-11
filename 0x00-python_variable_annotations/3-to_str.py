@@ -2,8 +2,7 @@
 '''Task 2: Basic annotations - floor
 '''
 
-
-def floor(a: float) -> int:
+def to_str(n: float) -> str:
     '''Computes the floor of a floating-point number.
     '''
-    return int(a)
+    return str(n)
