@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-'''Task 4's module.
+'''
+Take the code from wait_n and modify it to create the new function
+ task_wait_n. Except for the use of task_wait_random,
+   the code is virtually identical to wait_n.
+
 '''
 import asyncio
 from typing import List
