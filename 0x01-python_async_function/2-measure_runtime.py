@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
-'''Task 2: Measure the runtime
+'''
+Import wait_n from the previous file into 2-measure_runtime.py.
+
+Create a measure_time function with the inputs n and max_delay that
+ returns total_time / n and measures the total
+   execution time for wait_n(n, max_delay).
+     Your function's output should be a float.
+
+To calculate an approximate elapsed time, use the time module.
+
 '''
 import asyncio
 import time
