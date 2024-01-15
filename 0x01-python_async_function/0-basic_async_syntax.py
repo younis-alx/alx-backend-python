@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
-'''Task 0: The basics of async
-Write an asynchronous coroutine that takes in an integer
-argument (`max_delay`, with a default value of 10) named
-`wait_random` that waits for a random delay between 0 and
-`max_delay` (included and float value) seconds and
-eventually returns it.
+'''Task 0: Async fundamentals
+Create an asynchronous coroutine that takes an integer parameter
+('max_delay,' with a default value of 10)
+ and returns a value called
+
+'wait_random' is a function
+that waits for a random delay
+between 0 and'max_delay' (included and float value)
+seconds before returning it.
 '''
 
 import asyncio
